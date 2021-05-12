@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="jquery-3.5.1.js"></script>
+    <meta charset="UTF-8">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+    <title>MeteoLigu</title>
+</head>
+<body>
+<span>Inserire Citta'</span><input type="text" id="citta">
+<br>
+<select id="scelta">
+    <option value="meteoAttuale">Meteo Attuale</option>
+    <option value="previsioniMeteo">Previsioni Meteo</option>
+    <option value="inquinamentoAria">Inquinamento Aria</option>
+</select>
+<button onclick="vai()">Vai!</button>
+<br>
+<p id="meteo"></p>
+<canvas id="myChart"></canvas>
+</body>
+<script src="Script.js"></script>
+</html>
